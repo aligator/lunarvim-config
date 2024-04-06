@@ -4,7 +4,7 @@
 * fully usable Rust configuration
 * copilot (currently disabled)
 * code outline
-* auto save
+* auto save (not fully happy with it yet...)
 * markdown view
 * multi cursors (https://github.com/mg979/vim-visual-multi)
 * auto line number toggle for relative lines in command mode

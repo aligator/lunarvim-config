@@ -3,12 +3,6 @@
 -- Forum: https://www.reddit.com/r/lunarvim/
 -- Discord: https://discord.com/invite/Xb9B4Ny
 
--- dependencies needed to install:
--- * Rust LSP: rustup component add rust-analyzer
--- * Markdown Viewer: glow
--- * Clipboard support: wl-clipboard, xclip (may be different on non-linux)
--- * Github Copilot
-
 lvim.builtin.treesitter.ensure_installed = {
   "lua",
   "rust",
