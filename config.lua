@@ -16,7 +16,6 @@ lvim.builtin.treesitter.ensure_installed = {
 }
 
 lvim.format_on_save.enabled = true
-lvim.format_on_save = true
 lvim.number = true
 
 lvim.builtin.which_key.mappings["."] = {
@@ -45,6 +44,8 @@ table.insert(lvim.plugins, {
 table.insert(lvim.plugins, { "jeffkreeftmeijer/vim-numbertoggle" })
 table.insert(lvim.plugins, {
   "ellisonleao/glow.nvim",
+  config = true,
+  cmd = "Glow",
   ft = { "markdown" }
   --  build = "yay -S glow"
 })
