@@ -61,26 +61,11 @@ table.insert(lvim.plugins, {
 })
 
 -- auto save
-
--- This plugin is more used, but it triggers a reformat even on just typing somehow...
--- table.insert(lvim.plugins, {
---   "okuuva/auto-save.nvim",
---   enabled = false,
---   opts = {
---     -- your config goes here
---     -- or just leave it empty :)
---   },
--- })
-
--- So for now use this simpler one.
 table.insert(lvim.plugins, {
-  "aidenlangley/auto-save.nvim",
-  event = { "BufReadPre" },
+  "okuuva/auto-save.nvim",
   opts = {
-    events = { 'InsertLeave', 'BufLeave' },
-    exclude_ft = { 'neo-tree' },
-    save_cmd = "w!",
-    timeout = 200 -- let the formatter run
+    -- your config goes here
+    -- or just leave it empty :)
   },
 })
 
